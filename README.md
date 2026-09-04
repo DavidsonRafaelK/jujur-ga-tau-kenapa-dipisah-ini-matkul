@@ -35,14 +35,14 @@ The submissions are complete either way.
 
 ```
 .
-├── ComputerVision/     # Computer Vision assignments
+├── ComputerVision/                                 # Computer Vision assignments
 │   ├── 412024030_DAVIDSON_TUGAS_MINGGU_01.ipynb
 │   └── 412024030_DAVIDSON_TUGAS_MINGGU_02.ipynb
-├── ImageProcessing/    # Image Processing assignments
+├── ImageProcessing/                                # Image Processing assignments
 │   ├── 412024030_DAVIDSON_TUGAS_MINGGU_01.ipynb
 │   └── 412024030_DAVIDSON_TUGAS_MINGGU_02.ipynb
-├── image/              # Input images
-└── hasil/              # Output figures
+├── image/                                          # Input images  
+└── hasil/                                          # Output figures
 ```
 
 ## Output Figures
