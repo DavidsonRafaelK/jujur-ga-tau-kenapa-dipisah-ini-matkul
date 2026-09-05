@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/DavidsonRafaelK/Computer-Vision/main/image/logo.png" alt="Computer Vision & Image Processing" /></p>
+
 # Computer Vision & Image Processing
 
 Coursework submissions for two subjects: Computer Vision and Image Processing.
