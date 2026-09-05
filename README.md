@@ -9,8 +9,9 @@ Coursework submissions for two subjects: Computer Vision and Image Processing.
 This repository holds two folders because the material is taught as two separate subjects
 running in parallel during the same semester. The division itself is standard: Image
 Processing covers pixel and signal level operations, while Computer Vision covers the
-extraction of geometric and semantic information from those pixels. The issue is not the
-division but the scheduling.
+extraction of geometric and semantic information from those pixels. The distinction
+between the two subjects is academically reasonable; however, their concurrent scheduling
+has created certain practical inefficiencies.
 
 Week 1 of each subject, side by side:
 
@@ -27,19 +28,22 @@ tensors and feature detection; Image Processing continues into histogram analysi
 image statistics.
 
 Because neither subject can assume the other has been taken first, each has to build the
-same foundation from scratch. The result is that introductory material is covered twice and
-lab time in one subject is spent on work already completed in the other. It also separates
-concepts that depend on each other. Quantization degrades the histogram, and histogram
-quality affects Harris corner response, but the two halves of that relationship sit in
-different subjects and are never discussed together.
+same foundation from scratch. Consequently, a portion of the available laboratory time is
+allocated to exercises that have already been completed in the parallel subject. This also
+separates concepts that depend on each other. Quantization degrades the histogram, and
+histogram quality affects Harris corner response, but the two halves of that relationship
+sit in different subjects and are never discussed together. While all required submissions
+remain duly completed, this arrangement has resulted in avoidable duplication and has
+limited the opportunity for a more integrated examination of closely related concepts.
 
-Taught in sequence, with Image Processing as a prerequisite for Computer Vision, the
-duplication disappears without merging the subjects or cutting material from either. The
-submissions are complete either way.
+From an academic and operational standpoint, it may therefore be more effective to offer
+Image Processing as a prerequisite to Computer Vision. Such sequencing would preserve the
+scope and independence of both subjects while reducing unnecessary repetition and allowing
+the available instructional time to be used more efficiently.
 
 ## Repository Structure
 
-```
+```bash
 .
 ├── ComputerVision/                                 # Computer Vision assignments
 │   ├── 412024030_DAVIDSON_TUGAS_MINGGU_01.ipynb
